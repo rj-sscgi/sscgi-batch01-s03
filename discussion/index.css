@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* .div {
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border: 5px solid black;
+}
+
+.border-box {
+	box-sizing: border-box;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border: 5px solid black;
+}
+
+.content-box {
+	box-sizing: content-box;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border: 5px solid black;
+} */
+
+/* Type Selector */
+p {
+	font-size: 20px;
+}
+
+/* Class Selector */
+.class_sample {
+	background-color: yellow;
+}
+
+/* ID Selector */
+.id_sample {
+	background-color: green;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+	border: 3px solid red;
+}
+
+/* Group Selector */
+h1,
+h2 {
+	font-family: sans-serif;
+}
+
+/* Descendant Selector */
+div p {
+	color: blue;
+}
+
+/* Child Selector */
+/* div > p {
+	color: red;
+} */
+
+/* Adjacent Sibling */
+h2 + p {
+	font-size: 14px;
+	color: blue;
+}
